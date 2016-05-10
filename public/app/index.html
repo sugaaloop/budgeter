@@ -1,0 +1,24 @@
+<html doctype="html">
+<head>
+    <script type="text/javascript" src="vendor/angular.js"></script>
+    <script type="text/javascript" src="app/app.js"></script>
+    <script type="text/javascript" src="app/modules/payments/app.js"></script>
+    <script type="text/javascript" src="app/modules/payments/mainCtrl.js"></script>
+</head>
+
+
+<body ng-app="budgeter">
+
+<div ng-controller="mainCtrl as mainVM">
+
+    var: {{ mainVM.variable }}
+
+    <div payments></div>
+
+
+
+</div>
+
+</body>
+
+</html>
